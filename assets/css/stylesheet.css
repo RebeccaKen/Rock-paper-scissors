@@ -21,6 +21,6 @@ h1, h2 {
 }
 
 #heading {
-     float: left;
+     display: flex;
      font-size: 280%;
 }
