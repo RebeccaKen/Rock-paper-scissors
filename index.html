@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/245eb5f25c.js" crossorigin="anonymous"></script>
+
+    
     <link rel = "stylesheet" href="assets/css/stylesheet.css">
     <title>Rock Paper Scissors Game</title>
 </head>
 <body>
         <h1 id="heading">Rock Paper Scissors</h1>
-  
-   
         <div class="game-area">
+            <div class="control-area">
+            <button class="btn btn--big btn--red">
+            <i class="fa-regular fa-hand-back-fist"></i>
+            </button>
+            <button class="btn btn--big btn--blue">
+            <i class="fa-regular fa-hand"></i>
+            </button>
+            <button class="btn btn--big btn--red">
+            <i class="fa-regular fa-hand-peace"></i>
+            </button>
+        </div>
+        </div>
+        <div class ="question-area">
 
         </div>
-    
-        <div class="score-board">
-            <div class = "title"></div>
-            <p class="scores">Correct Answers <span id="score">0</span></p>
-            <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+        <div class ="wrapper">
+        <div class="scoreboard">
+            <h1>Scores</h1>
+            <p class="scores">Correct <span id="score">0</span></p>
+            <p class="scores">Incorrect <span id="incorrect">0</span></p>
         </div>
-    
+    </div>
 
 <script src = "assets/js/script.js"></script>   
 </body>
