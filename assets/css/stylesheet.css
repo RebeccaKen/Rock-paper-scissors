@@ -21,9 +21,24 @@ h1, h2 {
 }
 
 #heading {
-     display: flex;
+     text-align: center;
      font-size: 280%;
 }
+
+/*game-area*/
+
+.game-area {
+        background-color: #E6ECF0;
+        box-sizing: border-box;
+        width: 85%;
+        height: 65vh;
+        max-height: 450px;
+        max-width: 830px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1%;
+    }
+
 
 .wrapper {
       display: flex;
@@ -40,3 +55,114 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
 }
+
+/* --------- Buttons */
+
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: black;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--big {
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+}
+
+.btn--blue {
+    border-color: blue;
+    color: blue;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.btn--green {
+    border-color: green;
+    color: green;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn--red {
+    border-color: red;
+    color: red;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
+
+/*control-area*/
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.control-area {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 13vh;
+}
+
+.scoreboard > h1 {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.score1 {
+width: 150px;
+height: 114px;
+background-color: #E6ECF0;
+border-radius: 8px;
+margin: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.score2 {
+width: 150px;
+height: 114px;
+background-color: #E6ECF0;
+border-radius: 8px;
+margin: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
