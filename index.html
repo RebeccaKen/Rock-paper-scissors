@@ -13,26 +13,26 @@
 <body>
         <h1 id="heading">Rock Paper Scissors</h1>
         <div class="game-area">
-            <div class="control-area">
-            <button class="btn btn--big btn--red">
+            <div class="controls">
+            <button class="btn btn--big btn--red" button id ="rock" onclick="playGame(this)">
             <i class="fa-regular fa-hand-back-fist"></i>
             </button>
-            <button class="btn btn--big btn--blue">
+            <button class="btn btn--big btn--blue" button id="paper" onclick="playGame(this)">
             <i class="fa-regular fa-hand"></i>
             </button>
-            <button class="btn btn--big btn--green">
+            <button class="btn btn--big btn--green" button id="scissors" onclick="playGame(this)">
             <i class="fa-regular fa-hand-peace"></i>
             </button>
         </div>
         </div>
-        <div class ="question-area">
+        <div class ="contest">
 
         </div>
         <div class ="wrapper">
         <div class="scoreboard">
-            <h1>Scores</h1>
-            <p class="score1">Correct <span id="score">0</span></p>
-            <p class="score2">Incorrect <span id="incorrect">0</span></p>
+            <h1>Score:</h1>
+            <p class="score1">You <span id="you">0</span></p>
+            <p class="score2">Computer <span id="computer">0</span></p>
         </div>
     </div>
 

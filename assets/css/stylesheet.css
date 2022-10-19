@@ -23,6 +23,7 @@ h1, h2 {
 #heading {
      text-align: center;
      font-size: 280%;
+     margin-top: 3%;
 }
 
 /*game-area*/
@@ -55,6 +56,8 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
 }
+
+
 
 /* --------- Buttons */
 
@@ -116,7 +119,7 @@ h1, h2 {
     color: white;
 }
 
-/*control-area*/
+/*controls-area*/
 
 .wrapper {
     display: flex;
@@ -125,7 +128,7 @@ h1, h2 {
 }
 
 
-.control-area {
+.controls {
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -152,6 +155,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+color:black;
+font-weight:500;
 }
 
 .score2 {
@@ -164,5 +169,14 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+color: black;
+font-weight: 500;
 }
 
+.score1 > #you {
+    font-size: 30px;
+}
+
+.score2 > #computer {
+    font-size :30px;
+}
