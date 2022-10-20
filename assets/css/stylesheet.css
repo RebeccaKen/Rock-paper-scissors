@@ -60,110 +60,231 @@ h1, {
 }
     
 .btn--big {
-padding-top: 10px;
-border-radius: 50%;
-background-color: white;
-border: 10px solid;
-width: 100px;
-height: 100px;
-font-size: 3.2rem;
-margin: 0 30px;
-margin-left: 32%;
-margin-top: 11%;
-transition: all 0.5s;
-    }
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+    margin-left: 32%;
+    margin-top: 11%;
+    transition: all 0.5s;
+}
     
 .btn--blue {
-        border-color: blue;
-        color: blue;
-    }
+    border-color: blue;
+    color: blue;
+}
     
-    .btn--blue:active,
-    .btn--blue:hover {
-        background-color: darkblue;
-        color: white;
-    }
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
     
-    .btn--green {
-        border-color: green;
-        color: green;
-    }
+.btn--green {
+    border-color: green;
+    color: green;
+}
     
-    .btn--green:active,
-    .btn--green:hover {
-        background-color: darkgreen;
-        color: white;
-    }
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
     
-    .btn--red {
-        border-color: red;
-        color: red;
-    }
+.btn--red {
+    border-color: red;
+    color: red;
+}
     
-    .btn--red:active,
-    .btn--red:hover {
-        background-color: darkred;
-        color: white;
-    }
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
     
+button > i {
+    height: 100%;
+    width: 100%;
+    }
+
     /*controls-area*/
     
-    button > i {
-        height: 100%;
-        width: 100%;
+
+    
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreboard > h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+.score1 {
+    width: 100px;
+    height: 60px;
+    background-color: #E6ECF0;
+    border-radius: 8px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-weight:500;
+}
+
+.score2 {
+    width: 100px;
+    height: 60px;
+    background-color: #E6ECF0;
+    border-radius: 8px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+}
+            
+
+.score1 > #you {
+    font-size: 20px;
+}
+            
+.score2 > #computer {
+    font-size :20px;
+    
+}
+            
+@media only screen and (max-width: 768px) {
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: black;
     }
     
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
+
+.btn--big {
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+}
+
+.btn--blue {
+    border-color: blue;
+    color: blue;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.btn--green {
+    border-color: green;
+    color: green;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn--red {
+    border-color: red;
+    color: red;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13vh;
     }
-
-    .scoreboard > h1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
     
-      .score1 {
-        width: 100px;
-        height: 60px;
-        background-color: #E6ECF0;
-        border-radius: 8px;
-        margin: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color:black;
-        font-weight:500;
-        }
+.scoreboard > h1 {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-        .score2 {
-            width: 100px;
-            height: 60px;
-            background-color: #E6ECF0;
-            border-radius: 8px;
-            margin: 15px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: black;
-            font-weight: 500;
-            }
-            
+.score1 {
+    width: 150px;
+    height: 114px;
+    background-color: #E6ECF0;
+    border-radius: 8px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-weight:500;
+}
 
-            .score1 > #you {
-                font-size: 20px;
-            }
-            
-            .score2 > #computer {
-                font-size :20px;
-            }
-            
+.score2 {
+    width: 150px;
+    height: 114px;
+    background-color: #E6ECF0;
+    border-radius: 8px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    }
+    
+    .score1 > #you {
+        font-size: 20px;
+    }
+    
+    .score2 > #computer {
+        font-size :20px;
+    }
+    
         
-        
+
+  }
+
+
     
     
