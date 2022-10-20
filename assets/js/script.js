@@ -1,61 +1,58 @@
+const computerChoiceDisplay = document.getElementById('computer')
+const userChoiceDisplay= document.getElementById('you')
+const resultDisplay = document.getElementById('result')
+const possibleChoices = document.querySelectorAll('button')
+let userChoice
+let computerChoice
+let result
+possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
+   userChoice = e.target.id
+   userChoiceDisplay.innerHTML = userChoice
+   generateComputerChoice()
+   getResult()
+}))
 
-let you = 0;
-let computer = 0;
-let result = 'Start';
-let playgame = "";
+function generateComputerChoice() {
+  const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1
+  console.log(randomNumber)
 
-/** Show score */
-function showScore() {
+  if (randomNumber === 1) {
+    computerChoice = 'rock'
+  }
 
-	document.getElementById("you").innerText = you;
-	document.getElementById("computer").innerText = computer;	
-	document.getElementById("result").innerText = result;
+  if (randomNumber === 2) {
+    computerChoice = 'paper'
+  }
 
-/* get user selection */
-function playGame(userInput) {
+  if (randomNumber === 3) {
+    computerChoice = 'scissors'
+  }
+  computerChoiceDisplay.innerHTML = computerChoice
 
-    let userSelection = userInput.textContent;
-    let computerSelection = getComputerSelection();
-    let result = calcResult(userSelection, computerSelection);
-	document.getElementById("vstext").innerText = userSelection + ' VS ' + computerSelection;
-    showScore();
-	
-
-/* get computer selection */
-function getComputerSelection () {
-
-    const options = ['rock, paper, scissors']
-    let computerSelection = options[Math.floor(Math.random()*options.length)];
-    return computerSelection;
 }
 
-/* get results */
-function calcResult(user, computer) {
-
-    if (user === computer)
-    result = 'Draw'
-    return; 
-} else if ((user === 'rock' && computer === 'scissors') || (user === 'paper' && computer === 'rock') || (user === 'scissors' && computer === 'paper')) {
-	
-    you += 1;	
-
-    if (you== 10){
-    result = "You are the winner!";
-    endgame();
-    } else {
-    result = 'Wins'
-    return;
+function getResult() {
+    if (computerChoice === userChoice) {
+        result = 'Draw'
     }
-    
-} else {
-    computer += 1;
-    
-    if (computer == 10){
-    result = 'Computer is the Winner'
-    endgame();
-    } else { 
-    result = 'Lose'
-    return;
+    if (computerChoice === 'rock' && userChoice === 'paper') {
+        result = 'Winner'
     }
-            
+    if (computerChoice === 'rock' && userChoice === 'scissors') {
+        result = 'Loser'
+    }
+    if (computerChoice=== 'paper' && userChoice === 'scissors') {
+        result = 'Winner'
+    }
+     if (computerChoice === 'paper' && userChoice === 'rock') {
+        result = 'Loser'
+    }
+    if (computerChoice === 'scissors' && userChoice === 'rock') {
+    result = 'Winner'
+    }
+    if (computerChoice === 'scissors' && userChoice === 'paper') {
+        result = 'Loser'
+    }
+
+    resultDisplay.innerHTML = result
 }

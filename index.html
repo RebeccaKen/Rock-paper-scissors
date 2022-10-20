@@ -14,13 +14,13 @@
         <h1 id="heading">Rock Paper Scissors</h1>
         <div class="game-area">
             <div class="controls">
-            <button class="btn btn--big btn--red" button id ="rock" onclick="playGame(this)">
+            <button class="btn btn--big btn--red" button id ="rock">
             <i class="fa-regular fa-hand-back-fist"></i>
             </button>
-            <button class="btn btn--big btn--blue" button id="paper" onclick="playGame(this)">
+            <button class="btn btn--big btn--blue" button id="paper">
             <i class="fa-regular fa-hand"></i>
             </button>
-            <button class="btn btn--big btn--green" button id="scissors" onclick="playGame(this)">
+            <button class="btn btn--big btn--green" button id="scissors">
             <i class="fa-regular fa-hand-peace"></i>
             </button>
         </div>
@@ -30,7 +30,7 @@
         </div>
         <div class ="wrapper">
         <div class="scoreboard">
-            <h1>Score:</h1>
+            <h1 class ="score0">Result: <span id = "result">0</span></h1>
             <p class="score1">You <span id="you">0</span></p>
             <p class="score2">Computer <span id="computer">0</span></p>
         </div>
