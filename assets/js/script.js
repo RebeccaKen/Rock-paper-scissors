@@ -1,21 +1,21 @@
-const computerChoiceDisplay = document.getElementById('computer')
-const userChoiceDisplay= document.getElementById('you')
-const resultDisplay = document.getElementById('result')
-const possibleChoices = document.querySelectorAll('button')
-let userChoice
-let computerChoice
-let result
+const computerChoiceDisplay = document.getElementById('computer');
+const userChoiceDisplay= document.getElementById('you');
+const resultDisplay = document.getElementById('result');
+const possibleChoices = document.querySelectorAll('button');
+let userChoice;
+let computerChoice;
+let result;
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-   userChoice = e.target.id
-   console.log("userChoice: ", userChoice)
-   userChoiceDisplay.innerHTML = userChoice
-   generateComputerChoice()
-   getResult()
+   userChoice = e.target.id;
+   console.log("userChoice: ", userChoice);
+   userChoiceDisplay.innerHTML = userChoice;
+   generateComputerChoice();
+   getResult();
 }))
 
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1
-  console.log(randomNumber)
+  console.log(randomNumber);
 
   if (randomNumber === 1) {
     computerChoice = 'rock'
