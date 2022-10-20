@@ -31,9 +31,10 @@ Play icon: <a href="https://www.flaticon.com/free-icons/fun" title="fun icons">F
 
 Button Icons: 
 
-Rock Icon: <a href="https://www.flaticon.com/free-icons/fist" title="fist icons">Fist icons created by Cuputo - Flaticon</a>
+Button icons were acquired from the Font Awesome Website: https://fontawesome.com/
 
-Paper Icon:<a href="https://www.flaticon.com/free-icons/hand" title="hand icons">Hand icons created by berkahicon - Flaticon</a>
+Rock icon: <i class="fa-regular fa-hand-back-fist"></i>
 
-Scissor Icon: <a href="https://www.flaticon.com/free-icons/peace" title="peace icons">Peace icons created by Pixel perfect - Flaticon</a>
+Paper icon: <i class="fa-regular fa-hand"></i>
 
+Scissors icons: 
