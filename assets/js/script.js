@@ -1,3 +1,6 @@
+// The following javascript was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów'
+
+
 const computerChoiceDisplay = document.getElementById('computer');
 const userChoiceDisplay= document.getElementById('you');
 const resultDisplay = document.getElementById('result');

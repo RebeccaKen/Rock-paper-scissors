@@ -11,7 +11,7 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
+    color: #504d4d;
 }
 
 h1, {
@@ -27,8 +27,6 @@ h1, {
 }
 
 /* game-area */
-
-
 
 .game-area {
         display: flex;
@@ -50,6 +48,8 @@ h1, {
 .controls {
     transform: translate(0, -3%);
 }
+
+/* button-area */
 
 .btn {
     width: 110px;
@@ -115,14 +115,14 @@ button > i {
     height: 100%;
     width: 100%;
     }
-
-    /*controls-area*/
     
+/*scoreboard-area*/
+ 
 .scoreboard {
-    display: flex;
-    margin-top:5%;
-    margin-left: 5%;
-
+display: flex;
+align-content: center;
+justify-content: center;
+margin-top: 5%;
 }
 
 .scoreboard > h1 {

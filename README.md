@@ -23,10 +23,9 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <h3>Media</h3>
 
+The javascript was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów':
 
-Title Icon: 
-
-Play icon: <a href="https://www.flaticon.com/free-icons/fun" title="fun icons">Fun icons created by Freepik - Flaticon</a>
+https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1044s
 
 
 Button Icons: 
@@ -37,4 +36,4 @@ Rock icon: <i class="fa-regular fa-hand-back-fist"></i>
 
 Paper icon: <i class="fa-regular fa-hand"></i>
 
-Scissors icons: 
+Scissors icons: <i class="fa-regular fa-hand-peace"></i>
