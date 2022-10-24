@@ -171,19 +171,16 @@ margin-top: 5%;
     
 }
 
-.rules > h2 {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
 .rules {
     display: flex;
-    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
-
-@media (max-width: 1200px) {
+@media screen 
+  and (min-device-width: 1200px) {
     .game-area {
         display: flex;
         align-items: center;
@@ -200,6 +197,13 @@ margin-top: 5%;
         margin-top: 2vh;
         margin-bottom: auto;
       }
+
+      .rules {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 1%;
+    }
   }
 
      

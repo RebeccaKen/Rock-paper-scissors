@@ -25,6 +25,14 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <h3>Media</h3>
 
+Text content
+
+The text for the rules section of Rock, Paper, Scissors were taken from the webpage 'Rock-Paper-Scissors' on the website 'Play and Playground Encyclopedia': 
+
+https://www.pgpedia.com/r/rock-paper-scissors
+
+Javascript
+
 The javascript was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów':
 
 https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1044s
