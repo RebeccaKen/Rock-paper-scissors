@@ -13,15 +13,15 @@ Users of this website will be able to play a game of rock, paper, scissors again
 <p>The Wireframes were produced using Balsamiq. The final site varies from the wireframes due to developments that occurred during the developing stage.</p>
 <br>
 <p>Mobile screen:</p>
-<img src="mobile(assets/images/mobile(portrait).png" alt="wireframe of website on mobile screen portrait view">
-<img src="mobile(assets/images/mobile(landscape).png" alt="wireframe of website on mobile screen landscape view">
+<img src="mobile(assets/images/mobile(portrait).jpg" alt="wireframe of website on mobile screen portrait view">
+<img src="mobile(assets/images/mobile(landscape).jpg" alt="wireframe of website on mobile screen landscape view">
 <br>
 <p>Tablet screen:</p>
-<img src="mobile(assets/images/tablet(portrait).png" alt="wireframe of website on tablet screen portrait view">
-<img src="mobile(assets/images/tablet(landscape).png" alt="wireframe of website on tablet screen landscape view">
+<img src="mobile(assets/images/tablet(portrait).jpg" alt="wireframe of website on tablet screen portrait view">
+<img src="mobile(assets/images/tablet(landscape).jpg" alt="wireframe of website on tablet screen landscape view">
 <br>
 <p>Desktop:</p>
-<img src="mobile(assets/images/desktop.png" alt="wireframe of website on desktop screen">
+<img src="mobile(assets/images/desktop.jpg" alt="wireframe of website on desktop screen">
 
 <h2>Features</h2>
 
