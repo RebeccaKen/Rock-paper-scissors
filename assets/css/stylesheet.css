@@ -32,7 +32,7 @@ h1, {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #E6ECF0;
+        background-color: #dcdcdc;
         box-sizing: border-box;
         width: 85%;
         height: 65vh;
@@ -80,7 +80,7 @@ h1, {
     
 .btn--blue {
     border-color: blue;
-    color: blue;
+    color:  blue;
 }
     
 .btn--blue:active,
@@ -171,6 +171,16 @@ margin-top: 5%;
     
 }
 
+.rules > h2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.rules {
+    display: flex;
+    align-items: center;
+}
 
 
 @media (max-width: 1200px) {
