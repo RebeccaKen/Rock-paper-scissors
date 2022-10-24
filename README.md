@@ -7,6 +7,22 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 (Screenshot of game across multiple screens)
 
+<h2>UX User Experience</h2>
+
+<h3>Wireframes</h3>
+<p>The Wireframes were produced using Balsamiq. The final site varies from the wireframes due to developments that occurred during the developing stage.</p>
+<br>
+<p>Mobile screen:</p>
+<img src="mobile(assets/images/mobile(portrait).png" alt="wireframe of website on mobile screen portrait view">
+<img src="mobile(assets/images/mobile(landscape).png" alt="wireframe of website on mobile screen landscape view">
+<br>
+<p>Tablet screen:</p>
+<img src="mobile(assets/images/tablet(portrait).png" alt="wireframe of website on tablet screen portrait view">
+<img src="mobile(assets/images/tablet(landscape).png" alt="wireframe of website on tablet screen landscape view">
+<br>
+<p>Desktop:</p>
+<img src="mobile(assets/images/desktop.png" alt="wireframe of website on desktop screen">
+
 <h2>Features</h2>
 
 <h2>Testing</h2>
