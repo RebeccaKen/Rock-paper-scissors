@@ -14,6 +14,8 @@ Users of this website will be able to play a game of rock, paper, scissors again
 <br>
 <p>Mobile screen:</p>
 
+![mobile(portrait) - rock paper scissors ](https://user-images.githubusercontent.com/109537725/197852365-ebbcaca1-3faf-42c5-9b54-2a70d317abed.png)
+
 ![mobile(landscape) - rock paper scissors](https://user-images.githubusercontent.com/109537725/197849444-32fc0510-8567-46f1-9753-678146a84d4d.png)
 
 <br>
