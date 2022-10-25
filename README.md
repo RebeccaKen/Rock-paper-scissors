@@ -61,25 +61,27 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <h3>Media</h3>
 
-Text content
+<b>Styling</b>
+
+The styling for the Rock Paper Scissors game was inspired by the clear, clean styling of the 'Love Maths' project on the Code Insititute's website: 
+
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
+
+
+<b>Text content</b>
 
 The text for the rules section of Rock, Paper, Scissors were taken from the webpage 'Rock-Paper-Scissors' on the website 'Play and Playground Encyclopedia': 
 
 https://www.pgpedia.com/r/rock-paper-scissors
 
-Javascript
+<b>Javascript</b>
 
 The javascript was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów':
 
 https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1044s
 
 
-Button Icons: 
+<b>Button Icons</b>
 
 Button icons were acquired from the Font Awesome Website: https://fontawesome.com/
 
-Rock icon: <i class="fa-regular fa-hand-back-fist"></i>
-
-Paper icon: <i class="fa-regular fa-hand"></i>
-
-Scissors icons: <i class="fa-regular fa-hand-peace"></i>
