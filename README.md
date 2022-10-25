@@ -30,6 +30,10 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 ![desktop - rock paper scissors](https://user-images.githubusercontent.com/109537725/197845013-e7694ac9-0b4b-42a5-ba5c-e38405ee274d.png)
 
+<p>Colour Palette<p>
+ 
+ ![Colour Palette](https://user-images.githubusercontent.com/109537725/197855586-10e94f7f-fc9c-4155-b844-262804039e11.png)
+
 <h2>Features</h2>
 
 <h2>Testing</h2>
