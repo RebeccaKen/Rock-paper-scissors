@@ -2,6 +2,9 @@
 <h1>Rock, Paper, Scissors</h1>
 A rock, paper, scissors game build using HTML, CSS and JavaSript. 
 
+![Mock-up Generator](https://user-images.githubusercontent.com/109537725/197870392-a5f362e5-2ec7-45cc-9309-caecdd59547a.png)
+
+
 
 Users of this website will be able to play a game of rock, paper, scissors against the computer and see their scores recorded by the scoreboard. 
 
