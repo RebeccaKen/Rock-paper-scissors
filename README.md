@@ -19,14 +19,14 @@ Users of this website will be able to play a game of rock, paper, scissors again
 ![mobile(landscape) - rock paper scissors](https://user-images.githubusercontent.com/109537725/197849444-32fc0510-8567-46f1-9753-678146a84d4d.png)
 
 <br>
-<p>Tablet screen:</p>
+<p><b>Tablet screen:</b></p>
+
+![tablet(portrait) - rock paper scissors](https://user-images.githubusercontent.com/109537725/197852972-1a372dc2-ec61-48a2-9c79-bb9c2b3825e3.png)
 
 ![tablet(landscape) - rock paper scissors ](https://user-images.githubusercontent.com/109537725/197850680-cb1312e1-de85-440e-96cc-f0684e2a7fb9.png)
 
-
-
 <br>
-<p>Desktop:</p>
+<p><b>Desktop:</b></p>
 <img src="mobile(assets/images/desktop.jpg" alt="wireframe of website on desktop screen">
 <img src="mobile(assets/images/zombie" alt="wireframe of website on desktop screen">
 <img src="mobile(assets/images/zombie.jpg" alt="wireframe of website on desktop screen">
