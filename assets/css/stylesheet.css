@@ -14,7 +14,7 @@ body {
     color: #504d4d;
 }
 
-h1, {
+h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252522;
@@ -180,7 +180,7 @@ margin-top: 5%;
 }
 
 @media screen 
-  and (min-device-width: 1200px) {
+  and (min-width: 1200px) {
     .game-area {
         display: flex;
         align-items: center;
