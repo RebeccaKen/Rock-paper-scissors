@@ -14,49 +14,49 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
    userChoiceDisplay.innerHTML = userChoice;
    generateComputerChoice();
    getResult();
-}))
+}));
 
 function generateComputerChoice() {
-  const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1
+  const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
   console.log(randomNumber);
 
   if (randomNumber === 1) {
-    computerChoice = 'rock'
+    computerChoice = 'rock';
   }
 
   if (randomNumber === 2) {
-    computerChoice = 'paper'
+    computerChoice = 'paper';
   }
 
   if (randomNumber === 3) {
-    computerChoice = 'scissors'
+    computerChoice = 'scissors';
   }
-  computerChoiceDisplay.innerHTML = computerChoice
+  computerChoiceDisplay.innerHTML = computerChoice;
 
 }
 
 function getResult() {
     if (computerChoice === userChoice) {
-        result = 'Draw'
+        result = 'Draw';
     }
     if (computerChoice === 'rock' && userChoice === 'paper') {
-        result = 'Winner'
+        result = 'Winner';
     }
     if (computerChoice === 'rock' && userChoice === 'scissors') {
-        result = 'Loser'
+        result = 'Loser';
     }
     if (computerChoice=== 'paper' && userChoice === 'scissors') {
-        result = 'Winner'
+        result = 'Winner';
     }
      if (computerChoice === 'paper' && userChoice === 'rock') {
-        result = 'Loser'
+        result = 'Loser';
     }
     if (computerChoice === 'scissors' && userChoice === 'rock') {
-    result = 'Winner'
+    result = 'Winner';
     }
     if (computerChoice === 'scissors' && userChoice === 'paper') {
-        result = 'Loser'
+        result = 'Loser';
     }
 
-    resultDisplay.innerHTML = result
+    resultDisplay.innerHTML = result;
 }
