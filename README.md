@@ -13,8 +13,9 @@ Users of this website will be able to play a game of rock, paper, scissors again
 <p>The Wireframes were produced using Balsamiq. The final site varies from the wireframes due to developments that occurred during the developing stage.</p>
 <br>
 <p>Mobile screen:</p>
-<img src="mobile(assets/images/mobile(portrait).jpg" alt="wireframe of website on mobile screen portrait view">
-<img src="mobile(assets/images/mobile(landscape).jpg" alt="wireframe of website on mobile screen landscape view">
+![mobile(portrait) - rock paper scissors ](https://user-images.githubusercontent.com/109537725/197847158-3debe0d7-dc1f-4249-b99b-df158bae8ad6.png)
+
+
 <br>
 <p>Tablet screen:</p>
 <img src="mobile(assets/images/tablet(portrait).jpg" alt="wireframe of website on tablet screen portrait view">
