@@ -19,8 +19,11 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <br>
 <p>Tablet screen:</p>
-<img src="mobile(assets/images/tablet(portrait).jpg" alt="wireframe of website on tablet screen portrait view">
-<img src="mobile(assets/images/tablet(landscape).jpg" alt="wireframe of website on tablet screen landscape view">
+
+![tablet(landscape) - rock paper scissors ](https://user-images.githubusercontent.com/109537725/197850680-cb1312e1-de85-440e-96cc-f0684e2a7fb9.png)
+
+
+
 <br>
 <p>Desktop:</p>
 <img src="mobile(assets/images/desktop.jpg" alt="wireframe of website on desktop screen">
