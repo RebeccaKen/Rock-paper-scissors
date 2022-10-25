@@ -24,7 +24,8 @@ Users of this website will be able to play a game of rock, paper, scissors again
 <img src="mobile(assets/images/desktop.jpg" alt="wireframe of website on desktop screen">
 <img src="mobile(assets/images/zombie" alt="wireframe of website on desktop screen">
 <img src="mobile(assets/images/zombie.jpg" alt="wireframe of website on desktop screen">
-![desktop - rock paper scissors](https://user-images.githubusercontent.com/109537725/197843633-6ded9ac1-135e-4f8b-b5b9-024fcc33d060.jpg)
+
+![desktop - rock paper scissors](https://user-images.githubusercontent.com/109537725/197845013-e7694ac9-0b4b-42a5-ba5c-e38405ee274d.png)
 
 <h2>Features</h2>
 
