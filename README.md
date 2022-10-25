@@ -15,8 +15,6 @@ Users of this website will be able to play a game of rock, paper, scissors again
 <p>Mobile screen:</p>
 <img src="mobile(assets/images/mobile(portrait).jpg" alt="wireframe of website on mobile screen portrait view">
 <img src="mobile(assets/images/mobile(landscape).jpg" alt="wireframe of website on mobile screen landscape view">
-![wireframe of website on desktop screen](https://user-images.githubusercontent.com/109537725/197620957-19c1f40c-4f26-4daa-b498-d6c28807ff6d.jpg)
-
 <br>
 <p>Tablet screen:</p>
 <img src="mobile(assets/images/tablet(portrait).jpg" alt="wireframe of website on tablet screen portrait view">
@@ -24,6 +22,8 @@ Users of this website will be able to play a game of rock, paper, scissors again
 <br>
 <p>Desktop:</p>
 <img src="mobile(assets/images/desktop.jpg" alt="wireframe of website on desktop screen">
+<img src="mobile(assets/images/zombie" alt="wireframe of website on desktop screen">
+<img src="mobile(assets/images/zombie.jpg" alt="wireframe of website on desktop screen">
 
 <h2>Features</h2>
 
