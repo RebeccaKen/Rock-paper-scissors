@@ -32,6 +32,10 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <p><b>Colour Palette</b><p>
  
+ ![Colour Palette ](https://user-images.githubusercontent.com/109537725/197857263-70bb882b-15c5-4d36-b06e-042ec6dd0b6f.png)
+ 
+ <br>
+ 
  ![Colour Palette](https://user-images.githubusercontent.com/109537725/197855586-10e94f7f-fc9c-4155-b844-262804039e11.png)
  
 <h3>Typograpghy</h3>
