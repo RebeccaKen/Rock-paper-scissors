@@ -48,6 +48,7 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 ![responsive-buttons](https://user-images.githubusercontent.com/109537725/198050158-8955c138-f37f-4d7c-bd0d-317bc56c9e4d.png)
 
+![responsive-scoreboard](https://user-images.githubusercontent.com/109537725/198050801-63d0629a-51e6-47d3-9a42-fed13cef6215.png)
 
 
 
