@@ -61,7 +61,7 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 ![Css bugs](https://user-images.githubusercontent.com/109537725/198035765-50a2fc35-f7ba-433d-a48f-b19ca0c98d6d.png)
 <br>
-
+![Css - resolved ](https://user-images.githubusercontent.com/109537725/198036206-d528b404-d12a-4064-990a-0bf3210c886b.png)
 
 
 
