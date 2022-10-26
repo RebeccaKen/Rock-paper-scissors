@@ -63,6 +63,9 @@ Users of this website will be able to play a game of rock, paper, scissors again
 <br>
 ![Css - resolved ](https://user-images.githubusercontent.com/109537725/198036206-d528b404-d12a-4064-990a-0bf3210c886b.png)
 
+<b>Javascipt</b>
+
+![Javascript-resolved](https://user-images.githubusercontent.com/109537725/198036648-f8302b17-747b-4f7c-bce9-e0dabb2a3c21.png)
 
 
 
