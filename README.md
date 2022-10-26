@@ -1,17 +1,22 @@
-# Rock-paper-scissors
+
 <h1>Rock, Paper, Scissors</h1>
-A rock, paper, scissors game build using HTML, CSS and JavaSript. 
+A rock, paper, scissors game build using HTML, CSS and JavaSript. This site is intended to allow the user to select one of three buttons: rock, paper or scissors. This selection and subsequent click will signal the Javascript to generate it's own random choice. Those two choices are then compared. The scoreboard will then showcase the user's choice, the Javascript random choice and the result of the game. 
 <br>
 Users of this website will be able to play a game of rock, paper, scissors against the computer and see the results on a scoreboard. 
 
 ![Mock-up Generator](https://user-images.githubusercontent.com/109537725/197870392-a5f362e5-2ec7-45cc-9309-caecdd59547a.png)
 
 
+<a href="https://rebeccaken.github.io/Rock-paper-scissors/">Live Site</a>
+<ul>
+
+
+
 <h2>UX User Experience</h2>
 <ul>
 
 <h3>Wireframes</h3>
-<p>The Wireframes were produced using Balsamiq. The final site varies from the wireframes due to developments that occurred during the developing stage.</p>
+<p>The Wireframes were produced using Balsamiq. The final site varies from the wireframes due to developments that occurred during the evolution of the website.</p>
 <br>
 <p><b>Mobile screen:</b></p>
 
@@ -31,7 +36,8 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 ![desktop - rock paper scissors](https://user-images.githubusercontent.com/109537725/197845013-e7694ac9-0b4b-42a5-ba5c-e38405ee274d.png)
 
-<p><b>Colour Palette</b><p>
+<b>Colour Palette</b>
+<p>The colour scheme that I choose for the buttons of this project is a simple mix of red, blue and green. I choose this selection of colours because they are easy to see and they are complimentary. I used a light grey to define the background of the game-area and a darker grey for the text as I believe these grey shade go well with the bold colour selection of the buttons. </p>
  
  ![Colour Palette ](https://user-images.githubusercontent.com/109537725/197857263-70bb882b-15c5-4d36-b06e-042ec6dd0b6f.png)
  
@@ -41,7 +47,11 @@ Users of this website will be able to play a game of rock, paper, scissors again
  
 <h3>Typograpghy</h3>
 
+The fonts used in this project were imported into the css from google fonts. I choose Robot as a main font because it is both professional and positive. I choose Sans-sarif as back-up font because it is understated and friendly. 
+
 <h2>Features</h2>
+
+<p>Responsive buttons - Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.</p>
 
 <br>
 
@@ -49,17 +59,17 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <br>
 
+<p>Scoreboard - The scoreboard lists the user selected icon, the icon the computer has choosen at random and the result of the game as either 'loser', 'winner' or 'draw'. </p>
+
 ![responsive-scoreboard](https://user-images.githubusercontent.com/109537725/198050801-63d0629a-51e6-47d3-9a42-fed13cef6215.png)
 
 <br>
 
+<p>Rules - The rules section is a written guide to help the user understand the rules of rock, paper and scissors.</p>
+
 ![rules-section](https://user-images.githubusercontent.com/109537725/198051050-9a068cd8-cb61-45b0-a570-151b2d3e5d72.png)
 
 <br>
-
-
-
-
 
 <h2>Testing</h2>
 
@@ -70,13 +80,17 @@ Users of this website will be able to play a game of rock, paper, scissors again
 ![html-bugs](https://user-images.githubusercontent.com/109537725/198034351-c38de4b2-9b78-4724-97f2-db050973ac45.png)
 <br>
 
+<b>Resolved HTML bugs:</b>
+<br>
 ![html - resolved bugs](https://user-images.githubusercontent.com/109537725/198034837-dab627aa-0d51-4d3d-b1bc-2b5273944903.png)
 <br>
 
 <b>CCS</b>
 
 ![Css bugs](https://user-images.githubusercontent.com/109537725/198035765-50a2fc35-f7ba-433d-a48f-b19ca0c98d6d.png)
+<b>Resolved CSS bugs</b>
 <br>
+
 ![Css - resolved ](https://user-images.githubusercontent.com/109537725/198036206-d528b404-d12a-4064-990a-0bf3210c886b.png)
 
 <b>Javascipt</b>
@@ -87,6 +101,13 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 
 <h2>Deployment</h2>
+<p>This website was deployed using Github pages.</p>
+
+<li>1.	Navigate to the settings tab on the Github repository 
+2.	In settings, navigate to the left-hand side of menu and click ‘Pages’
+3.	Navigate to the ‘Branch’ section of ‘Pages’ and select ‘Main’ branch and hit ‘Save’. 
+4.	Navigate to deployment link at the top of the page and click the link. 
+</li>
 
 <br>
 
@@ -105,10 +126,7 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 
 <h2>Credits</h2>
-
-<h3>Content</h3>
-
-
+<ul>
 
 <h3>Media</h3>
 
