@@ -44,7 +44,10 @@ Users of this website will be able to play a game of rock, paper, scissors again
 <h3>Typograpghy</h3>
 
 <h2>Features</h2>
-<br>
+
+
+![responsive-buttons](https://user-images.githubusercontent.com/109537725/198050158-8955c138-f37f-4d7c-bd0d-317bc56c9e4d.png)
+
 
 
 
