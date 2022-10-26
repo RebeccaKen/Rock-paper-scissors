@@ -49,10 +49,17 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <h3>Bugs</h3>
 
+<b>HTML</b>
+
 ![html-bugs](https://user-images.githubusercontent.com/109537725/198034351-c38de4b2-9b78-4724-97f2-db050973ac45.png)
 <br>
 
 ![html - resolved bugs](https://user-images.githubusercontent.com/109537725/198034837-dab627aa-0d51-4d3d-b1bc-2b5273944903.png)
+<br>
+
+<b>CCS</b>
+
+
 
 
 <h3>Validator Testing</h3>
