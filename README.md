@@ -80,6 +80,9 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 ![DP1](https://user-images.githubusercontent.com/109537725/198046708-3080351c-fd89-43e5-b762-09daed1c8fac.jpg)
 
+![DP2](https://user-images.githubusercontent.com/109537725/198047022-244eaa0e-eb4a-4ddb-9807-edb0e2035dec.jpg)
+
+
 <h2>Credits</h2>
 
 <h3>Content</h3>
