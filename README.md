@@ -1,16 +1,14 @@
 # Rock-paper-scissors
 <h1>Rock, Paper, Scissors</h1>
 A rock, paper, scissors game build using HTML, CSS and JavaSript. 
+<br>
+Users of this website will be able to play a game of rock, paper, scissors against the computer and see the results on a scoreboard. 
 
 ![Mock-up Generator](https://user-images.githubusercontent.com/109537725/197870392-a5f362e5-2ec7-45cc-9309-caecdd59547a.png)
 
 
-
-Users of this website will be able to play a game of rock, paper, scissors against the computer and see their scores recorded by the scoreboard. 
-
-(Screenshot of game across multiple screens)
-
 <h2>UX User Experience</h2>
+<ul>
 
 <h3>Wireframes</h3>
 <p>The Wireframes were produced using Balsamiq. The final site varies from the wireframes due to developments that occurred during the developing stage.</p>
@@ -77,6 +75,16 @@ Users of this website will be able to play a game of rock, paper, scissors again
 <h3>Validator Testing</h3>
 
 <h2>Deployment</h2>
+
+<p>This site was deployed using Github pages.</p>
+
+1.	Navigate to the settings tab on the Github repository 
+2.	In settings, navigate to the left-hand side of menu and click ‘Pages’
+3.	Navigate to the ‘Branch’ section of ‘Pages’ and select ‘Main’ branch and hit ‘Save’. 
+4.	Navigate to deployment link at the top of the page and click the link. 
+
+
+
 
 ![DP1](https://user-images.githubusercontent.com/109537725/198046708-3080351c-fd89-43e5-b762-09daed1c8fac.jpg)
 
