@@ -59,6 +59,10 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <b>CCS</b>
 
+![Css bugs](https://user-images.githubusercontent.com/109537725/198035765-50a2fc35-f7ba-433d-a48f-b19ca0c98d6d.png)
+<br>
+
+
 
 
 
