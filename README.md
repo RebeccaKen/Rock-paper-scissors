@@ -45,10 +45,19 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <h2>Features</h2>
 
+<br>
 
 ![responsive-buttons](https://user-images.githubusercontent.com/109537725/198050158-8955c138-f37f-4d7c-bd0d-317bc56c9e4d.png)
 
+<br>
+
 ![responsive-scoreboard](https://user-images.githubusercontent.com/109537725/198050801-63d0629a-51e6-47d3-9a42-fed13cef6215.png)
+
+<br>
+
+![rules-section](https://user-images.githubusercontent.com/109537725/198051050-9a068cd8-cb61-45b0-a570-151b2d3e5d72.png)
+
+<br>
 
 
 
@@ -74,19 +83,26 @@ Users of this website will be able to play a game of rock, paper, scissors again
 
 <b>Javascipt</b>
 
+<br>
+
 ![Javascript-resolved](https://user-images.githubusercontent.com/109537725/198036648-f8302b17-747b-4f7c-bce9-e0dabb2a3c21.png)
 
 
-
-<h3>Validator Testing</h3>
-
 <h2>Deployment</h2>
+
+<br>
 
 ![DP1](https://user-images.githubusercontent.com/109537725/198046708-3080351c-fd89-43e5-b762-09daed1c8fac.jpg)
 
+<br>
+
 ![DP2](https://user-images.githubusercontent.com/109537725/198047022-244eaa0e-eb4a-4ddb-9807-edb0e2035dec.jpg)
 
+<br>
+
 ![DP3](https://user-images.githubusercontent.com/109537725/198047500-bca5969f-7821-44f8-953e-facdfa6de3b1.jpg)
+
+<br>
 
 ![DP4](https://user-images.githubusercontent.com/109537725/198048690-202112d9-7ff2-4a7b-9bbf-1aa4714f1a6f.jpg)
 
