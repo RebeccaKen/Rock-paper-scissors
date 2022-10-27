@@ -8,7 +8,7 @@ A rock, paper, scissors game build using HTML, CSS and JavaSript. This site is i
 
 <h2>Live Site<h2>
 <ul>
-<a href="https://rebeccaken.github.io/Rock-paper-scissors/">Rock, Paper, Scissors</a>
+<b><a href="https://rebeccaken.github.io/Rock-paper-scissors/">Rock, Paper, Scissors</a></b>
 
 
 
@@ -33,12 +33,12 @@ A rock, paper, scissors game build using HTML, CSS and JavaSript. This site is i
 ![tablet(landscape) - rock paper scissors ](https://user-images.githubusercontent.com/109537725/197850680-cb1312e1-de85-440e-96cc-f0684e2a7fb9.png)
 
 <br>
-<p><b>Desktop:</b></p>
+<b>Desktop:</b>
 
 ![desktop - rock paper scissors](https://user-images.githubusercontent.com/109537725/197845013-e7694ac9-0b4b-42a5-ba5c-e38405ee274d.png)
 
 <b>Colour Palette</b>
-<p>The colour scheme that I choose for the buttons of this project is a simple mix of red, blue and green. I choose this selection of colours because they are easy to see and they are complimentary. I used a light grey to define the background of the game-area and a darker grey for the text as I believe these grey shade go well with the bold colour selection of the buttons. </p>
+The colour scheme that I choose for the buttons of this project is a simple mix of red, blue and green. I choose this selection of colours because they are easy to see and they are complimentary. I used a light grey to define the background of the game-area and a darker grey for the text as I believe these grey shade go well with the bold colour selection of the buttons.
  
  ![Colour Palette ](https://user-images.githubusercontent.com/109537725/197857263-70bb882b-15c5-4d36-b06e-042ec6dd0b6f.png)
  
@@ -52,7 +52,7 @@ The fonts used in this project were imported into the css from google fonts. I c
 
 <h2>Features</h2>
 
-<p><b>Responsive buttons</b> - Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.</p>
+<b>Responsive buttons</b> - Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.
 
 <br>
 
@@ -60,13 +60,13 @@ The fonts used in this project were imported into the css from google fonts. I c
 
 <br>
 
-<p><b>Scoreboard</b> - The scoreboard lists the user selected icon, the icon the computer has choosen at random and the result of the game as either 'loser', 'winner' or 'draw'. </p>
+<b>Scoreboard</b> - The scoreboard lists the user selected icon, the icon the computer has choosen at random and the result of the game as either 'loser', 'winner' or 'draw'.
 
 ![responsive-scoreboard](https://user-images.githubusercontent.com/109537725/198050801-63d0629a-51e6-47d3-9a42-fed13cef6215.png)
 
 <br>
 
-<p><b>Rules</b> - The rules section is a written guide to help the user understand the rules of rock, paper and scissors.</p>
+<b>Rules</b> - The rules section is a written guide to help the user understand the rules of rock, paper and scissors.
 
 ![rules-section](https://user-images.githubusercontent.com/109537725/198051050-9a068cd8-cb61-45b0-a570-151b2d3e5d72.png)
 
@@ -152,4 +152,8 @@ https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1044s
 <b>Button Icons</b>
 
 Button icons were acquired from the Font Awesome Website: https://fontawesome.com/
+
+<h2>Acknowledgements</h2>
+<ul>
+I would like to thank my tutor Harry Dhillion for the advice and everyone on the Code Institute slack channels for the encouragement. 
 
