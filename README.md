@@ -35,7 +35,7 @@
 ![desktop - rock paper scissors](https://user-images.githubusercontent.com/109537725/197845013-e7694ac9-0b4b-42a5-ba5c-e38405ee274d.png)
 
 <b>Colour Palette:</b>
-<p>The colour scheme that I choose for the buttons of this project is a simple mix of red, blue and green. I choose this selection of colours because they are easy to see and they are complimentary. I used a light grey to define the background of the game-area and a darker grey for the text as I believe these grey shade go well with the bold colour selection of the buttons.</p>
+<p>The colour scheme that I choose for the buttons of this project is a simple mix of red, blue and green. I choose this selection of colours because they are easy to see and they are complimentary. I used a light grey to define the background of the game-area and a darker grey for the text as I believe these grey shades go well with the bold colour selection of the buttons.</p>
  
  ![Colour Palette ](https://user-images.githubusercontent.com/109537725/197857263-70bb882b-15c5-4d36-b06e-042ec6dd0b6f.png)
  
@@ -45,7 +45,7 @@
  
 <h3>Typograpghy</h3>
 
-<p>The fonts used in this project were imported into the css from google fonts. I choose Robot as a main font because it is both professional and positive. I choose Sans-sarif as back-up font because it is understated and friendly.</p>
+<p>The fonts used in this project were imported into the css from google fonts. I choose Roboto as a main font because it is both professional and positive. I choose Sans-sarif as back-up font because it is understated and friendly.</p>
 
 <h2>Accessibility</h2>
 <ul>
