@@ -1,6 +1,6 @@
 
 <h1>Rock, Paper, Scissors</h1>
-A rock, paper, scissors game build using HTML, CSS and JavaSript. This site is intended to allow the user to select one of three buttons: rock, paper or scissors. This selection and subsequent click will signal the Javascript to generate it's own random choice. Those two choices are then compared. The scoreboard will then showcase the user's choice, the Javascript random choice and the result of the game. 
+<p>A rock, paper, scissors game build using HTML, CSS and JavaSript. This site is intended to allow the user to select one of three buttons: rock, paper or scissors. This selection and subsequent click will signal the Javascript to generate it's own random choice. Those two choices are then compared. The scoreboard will then showcase the user's choice, the Javascript random choice and the result of the game. </p>
 <br>
 
 ![Mock-up Generator](https://user-images.githubusercontent.com/109537725/197870392-a5f362e5-2ec7-45cc-9309-caecdd59547a.png)
@@ -37,8 +37,8 @@ A rock, paper, scissors game build using HTML, CSS and JavaSript. This site is i
 
 ![desktop - rock paper scissors](https://user-images.githubusercontent.com/109537725/197845013-e7694ac9-0b4b-42a5-ba5c-e38405ee274d.png)
 
-<b>Colour Palette</b>
-The colour scheme that I choose for the buttons of this project is a simple mix of red, blue and green. I choose this selection of colours because they are easy to see and they are complimentary. I used a light grey to define the background of the game-area and a darker grey for the text as I believe these grey shade go well with the bold colour selection of the buttons.
+<b>Colour Palette:</b>
+<p>The colour scheme that I choose for the buttons of this project is a simple mix of red, blue and green. I choose this selection of colours because they are easy to see and they are complimentary. I used a light grey to define the background of the game-area and a darker grey for the text as I believe these grey shade go well with the bold colour selection of the buttons.</p>
  
  ![Colour Palette ](https://user-images.githubusercontent.com/109537725/197857263-70bb882b-15c5-4d36-b06e-042ec6dd0b6f.png)
  
@@ -48,11 +48,11 @@ The colour scheme that I choose for the buttons of this project is a simple mix 
  
 <h3>Typograpghy</h3>
 
-The fonts used in this project were imported into the css from google fonts. I choose Robot as a main font because it is both professional and positive. I choose Sans-sarif as back-up font because it is understated and friendly. 
+<p>The fonts used in this project were imported into the css from google fonts. I choose Robot as a main font because it is both professional and positive. I choose Sans-sarif as back-up font because it is understated and friendly.</p>
 
 <h2>Features</h2>
 
-<b>Responsive buttons</b> - Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.
+<b>Responsive buttons</b> -<p>Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.</p>
 
 <br>
 
@@ -60,13 +60,13 @@ The fonts used in this project were imported into the css from google fonts. I c
 
 <br>
 
-<b>Scoreboard</b> - The scoreboard lists the user selected icon, the icon the computer has choosen at random and the result of the game as either 'loser', 'winner' or 'draw'.
+<b>Scoreboard</b> -<p>The scoreboard lists the user selected icon, the icon the computer has choosen at random and the result of the game as either 'loser', 'winner' or 'draw'.</p>
 
 ![responsive-scoreboard](https://user-images.githubusercontent.com/109537725/198050801-63d0629a-51e6-47d3-9a42-fed13cef6215.png)
 
 <br>
 
-<b>Rules</b> - The rules section is a written guide to help the user understand the rules of rock, paper and scissors.
+<b>Rules</b> -<p> The rules section is a written guide to help the user understand the rules of rock, paper and scissors.</p>
 
 ![rules-section](https://user-images.githubusercontent.com/109537725/198051050-9a068cd8-cb61-45b0-a570-151b2d3e5d72.png)
 
@@ -74,7 +74,7 @@ The fonts used in this project were imported into the css from google fonts. I c
 
 <h2>Testing & Bugs</h2>
 
-<b>HTML</b>
+<b>HTML:</b>
 
 ![html-bugs](https://user-images.githubusercontent.com/109537725/198034351-c38de4b2-9b78-4724-97f2-db050973ac45.png)
 <br>
@@ -84,7 +84,7 @@ The fonts used in this project were imported into the css from google fonts. I c
 ![html - resolved bugs](https://user-images.githubusercontent.com/109537725/198034837-dab627aa-0d51-4d3d-b1bc-2b5273944903.png)
 <br>
 
-<b>CCS</b>
+<b>CCS:</b>
 
 ![Css bugs](https://user-images.githubusercontent.com/109537725/198035765-50a2fc35-f7ba-433d-a48f-b19ca0c98d6d.png)
 <b>Resolved CSS bugs</b>
@@ -92,7 +92,7 @@ The fonts used in this project were imported into the css from google fonts. I c
 
 ![Css - resolved ](https://user-images.githubusercontent.com/109537725/198036206-d528b404-d12a-4064-990a-0bf3210c886b.png)
 
-<b>Javascipt</b>
+<b>Javascipt:</b>
 
 <br>
 
@@ -102,16 +102,16 @@ The fonts used in this project were imported into the css from google fonts. I c
 <h2>Deployment</h2>
 <p>This website was deployed using Github pages.</p>
 
-<li>1.	Navigate to the settings tab on the Github repository 
-2.	In settings, navigate to the left-hand side of menu and click ‘Pages’
-3.	Navigate to the ‘Branch’ section of ‘Pages’ and select ‘Main’ branch and hit ‘Save’. 
-4.	Navigate to deployment link at the top of the page and click the link. 
-</li>
+<li>1.	Navigate to the settings tab on the Github repository.</li>
+<li>2.	In settings, navigate to the left-hand side of menu and click ‘Pages’.</li>
+<li>3.	Navigate to the ‘Branch’ section of ‘Pages’ and select ‘Main’ branch and hit ‘Save’.</li>
+<li>4.	Navigate to deployment link at the top of the page and click the link.</li>
 
 <br>
 
 ![DP1](https://user-images.githubusercontent.com/109537725/198046708-3080351c-fd89-43e5-b762-09daed1c8fac.jpg)
 
+<br>
 
 ![DP2](https://user-images.githubusercontent.com/109537725/198047022-244eaa0e-eb4a-4ddb-9807-edb0e2035dec.jpg)
 
@@ -138,22 +138,22 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/co
 
 <b>Text content</b>
 
-The text for the rules section of Rock, Paper, Scissors were taken from the webpage 'Rock-Paper-Scissors' on the website 'Play and Playground Encyclopedia': 
+<p>The text for the rules section of Rock, Paper, Scissors were taken from the webpage 'Rock-Paper-Scissors' on the website 'Play and Playground Encyclopedia':</p>
 
 https://www.pgpedia.com/r/rock-paper-scissors
 
 <b>Javascript</b>
 
-The javascript was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów':
+<p>The javascript was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów':</p>
 
 https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1044s
 
 
 <b>Button Icons</b>
 
-Button icons were acquired from the Font Awesome Website: https://fontawesome.com/
+<p>Button icons were acquired from the Font Awesome Website: https://fontawesome.com/</p>
 
 <h2>Acknowledgements</h2>
 <ul>
-I would like to thank my tutor Harry Dhillion for the advice and everyone on the Code Institute slack channels for the encouragement. 
+<p>I would like to thank my tutor Harry Dhillion for the advice and everyone on the Code Institute slack channels for the encouragement.</p>
 
