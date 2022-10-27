@@ -108,10 +108,10 @@
 <h2>Deployment</h2>
 <p>This website was deployed using Github pages.</p>
 
-<li>1.	Navigate to the settings tab on the Github repository.</li>
-<li>2.	In settings, navigate to the left-hand side of menu and click ‘Pages’.</li>
-<li>3.	Navigate to the ‘Branch’ section of ‘Pages’ and select ‘Main’ branch and hit ‘Save’.</li>
-<li>4.	Navigate to deployment link at the top of the page and click the link.</li>
+<li>Navigate to the settings tab on the Github repository.</li>
+<li>In settings, navigate to the left-hand side of menu and click ‘Pages’.</li>
+<li>Navigate to the ‘Branch’ section of ‘Pages’ and select ‘Main’ branch and hit ‘Save’.</li>
+<li>Navigate to deployment link at the top of the page and click the link.</li>
 
 <br>
 

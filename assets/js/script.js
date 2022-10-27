@@ -2,18 +2,18 @@
 
 
 const computerChoiceDisplay = document.getElementById('computer');
-const userChoiceDisplay= document.getElementById('you');
+const userChoiceDisplay = document.getElementById('you');
 const resultDisplay = document.getElementById('result');
 const possibleChoices = document.querySelectorAll('button');
 let userChoice;
 let computerChoice;
 let result;
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-   userChoice = e.target.id;
-   console.log("userChoice: ", userChoice);
-   userChoiceDisplay.innerHTML = userChoice;
-   generateComputerChoice();
-   getResult();
+  userChoice = e.target.id;
+  console.log("userChoice: ", userChoice);
+  userChoiceDisplay.innerHTML = userChoice;
+  generateComputerChoice();
+  getResult();
 }));
 
 function generateComputerChoice() {
@@ -36,27 +36,27 @@ function generateComputerChoice() {
 }
 
 function getResult() {
-    if (computerChoice === userChoice) {
-        result = 'Draw';
-    }
-    if (computerChoice === 'rock' && userChoice === 'paper') {
-        result = 'Winner';
-    }
-    if (computerChoice === 'rock' && userChoice === 'scissors') {
-        result = 'Loser';
-    }
-    if (computerChoice=== 'paper' && userChoice === 'scissors') {
-        result = 'Winner';
-    }
-     if (computerChoice === 'paper' && userChoice === 'rock') {
-        result = 'Loser';
-    }
-    if (computerChoice === 'scissors' && userChoice === 'rock') {
+  if (computerChoice === userChoice) {
+    result = 'Draw';
+  }
+  if (computerChoice === 'rock' && userChoice === 'paper') {
     result = 'Winner';
-    }
-    if (computerChoice === 'scissors' && userChoice === 'paper') {
-        result = 'Loser';
-    }
+  }
+  if (computerChoice === 'rock' && userChoice === 'scissors') {
+    result = 'Loser';
+  }
+  if (computerChoice === 'paper' && userChoice === 'scissors') {
+    result = 'Winner';
+  }
+  if (computerChoice === 'paper' && userChoice === 'rock') {
+    result = 'Loser';
+  }
+  if (computerChoice === 'scissors' && userChoice === 'rock') {
+    result = 'Winner';
+  }
+  if (computerChoice === 'scissors' && userChoice === 'paper') {
+    result = 'Loser';
+  }
 
-    resultDisplay.innerHTML = result;
+  resultDisplay.innerHTML = result;
 }
