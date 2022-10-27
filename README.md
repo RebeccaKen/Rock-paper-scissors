@@ -6,7 +6,7 @@
 ![Mock-up Generator](https://user-images.githubusercontent.com/109537725/197870392-a5f362e5-2ec7-45cc-9309-caecdd59547a.png)
 
 
-<h2>Live Site<h2>
+<h2>Live Site</h2>
 <ul>
 <b><a href="https://rebeccaken.github.io/Rock-paper-scissors/">Rock, Paper, Scissors</a></b>
 
