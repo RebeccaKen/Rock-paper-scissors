@@ -7,7 +7,7 @@ Users of this website will be able to play a game of rock, paper, scissors again
 ![Mock-up Generator](https://user-images.githubusercontent.com/109537725/197870392-a5f362e5-2ec7-45cc-9309-caecdd59547a.png)
 
 
-<a href="https://rebeccaken.github.io/Rock-paper-scissors/">Live Site</a>
+<h2><a href="https://rebeccaken.github.io/Rock-paper-scissors/">Live Site</a></h2>
 <ul>
 
 
@@ -71,9 +71,7 @@ The fonts used in this project were imported into the css from google fonts. I c
 
 <br>
 
-<h2>Testing</h2>
-
-<h3>Bugs</h3>
+<h2>Testing & Bugs</h2>
 
 <b>HTML</b>
 
