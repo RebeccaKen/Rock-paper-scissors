@@ -171,6 +171,8 @@ margin-top: 5%;
     
 }
 
+/* rules-area */
+
 .rules {
     display: flex;
     text-align: center;
@@ -179,6 +181,7 @@ margin-top: 5%;
     margin-left: 5%;
 }
 
+/* media queries */
 @media screen 
   and (min-width: 1200px) {
     .game-area {
