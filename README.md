@@ -50,7 +50,9 @@
 <h2>Accessibility</h2>
 <ul>
 <b>Lighthouse Report</b>
-![Lighthouse report_page-0001](https://user-images.githubusercontent.com/109537725/198399682-52e35378-bf6b-478c-9bed-9e8691d7fbcb.jpg)
+
+![lighthouse-report jpg](https://user-images.githubusercontent.com/109537725/198401129-a6835b77-4843-41cc-9525-5af0570feea1.jpg)
+
 
 <br>
 
