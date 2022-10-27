@@ -8,7 +8,7 @@ A rock, paper, scissors game build using HTML, CSS and JavaSript. This site is i
 
 <h2>Live Site<h2>
 <ul>
-<a href="https://rebeccaken.github.io/Rock-paper-scissors/">Live Site</a>
+<a href="https://rebeccaken.github.io/Rock-paper-scissors/">Rock, Paper, Scissors</a>
 
 
 
