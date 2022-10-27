@@ -2,13 +2,14 @@
 <h1>Rock, Paper, Scissors</h1>
 A rock, paper, scissors game build using HTML, CSS and JavaSript. This site is intended to allow the user to select one of three buttons: rock, paper or scissors. This selection and subsequent click will signal the Javascript to generate it's own random choice. Those two choices are then compared. The scoreboard will then showcase the user's choice, the Javascript random choice and the result of the game. 
 <br>
-Users of this website will be able to play a game of rock, paper, scissors against the computer and see the results on a scoreboard. 
 
 ![Mock-up Generator](https://user-images.githubusercontent.com/109537725/197870392-a5f362e5-2ec7-45cc-9309-caecdd59547a.png)
 
 
-<h2><a href="https://rebeccaken.github.io/Rock-paper-scissors/">Live Site</a></h2>
+<h2>Live Site<h2>
 <ul>
+<a href="https://rebeccaken.github.io/Rock-paper-scissors/">Live Site</a>
+
 
 
 
@@ -51,7 +52,7 @@ The fonts used in this project were imported into the css from google fonts. I c
 
 <h2>Features</h2>
 
-<p>Responsive buttons - Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.</p>
+<p><b>Responsive buttons</b> - Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.</p>
 
 <br>
 
@@ -59,13 +60,13 @@ The fonts used in this project were imported into the css from google fonts. I c
 
 <br>
 
-<p>Scoreboard - The scoreboard lists the user selected icon, the icon the computer has choosen at random and the result of the game as either 'loser', 'winner' or 'draw'. </p>
+<p><b>Scoreboard</b> - The scoreboard lists the user selected icon, the icon the computer has choosen at random and the result of the game as either 'loser', 'winner' or 'draw'. </p>
 
 ![responsive-scoreboard](https://user-images.githubusercontent.com/109537725/198050801-63d0629a-51e6-47d3-9a42-fed13cef6215.png)
 
 <br>
 
-<p>Rules - The rules section is a written guide to help the user understand the rules of rock, paper and scissors.</p>
+<p><b>Rules</b> - The rules section is a written guide to help the user understand the rules of rock, paper and scissors.</p>
 
 ![rules-section](https://user-images.githubusercontent.com/109537725/198051050-9a068cd8-cb61-45b0-a570-151b2d3e5d72.png)
 
