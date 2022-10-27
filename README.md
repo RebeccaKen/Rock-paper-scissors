@@ -58,7 +58,15 @@
 
 <h2>Features</h2>
 
-<b>Responsive buttons</b> -<p>Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.</p>
+<b>Heading</b> - <p>The heading contains the name of the game 'Rock Paper Scissors' in the font Roboto.</p>
+
+<br>
+
+![Screenshot 2022-10-27 at 22-53-20 Rock Paper Scissors Game](https://user-images.githubusercontent.com/109537725/198405951-537e3882-5781-4694-b1ae-b0b9c26da8db.png)
+
+<br>
+
+<b>Responsive Buttons</b> -<p>Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.</p>
 
 <br>
 
