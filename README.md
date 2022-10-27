@@ -10,9 +10,6 @@
 <ul>
 <b><a href="https://rebeccaken.github.io/Rock-paper-scissors/">Rock, Paper, Scissors</a></b>
 
-
-
-
 <h2>UX User Experience</h2>
 <ul>
 
@@ -49,6 +46,13 @@
 <h3>Typograpghy</h3>
 
 <p>The fonts used in this project were imported into the css from google fonts. I choose Robot as a main font because it is both professional and positive. I choose Sans-sarif as back-up font because it is understated and friendly.</p>
+
+<h2>Accessibility</h2>
+<ul>
+<b>Lighthouse Report</b>
+![Lighthouse report_page-0001](https://user-images.githubusercontent.com/109537725/198399682-52e35378-bf6b-478c-9bed-9e8691d7fbcb.jpg)
+
+<br>
 
 <h2>Features</h2>
 
