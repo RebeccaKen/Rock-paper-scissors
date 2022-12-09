@@ -12,26 +12,21 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   userChoice = e.target.id;
   console.log("userChoice: ", userChoice);
   userChoiceDisplay.innerHTML = userChoice;
-  generateComputerChoice();
+  generatecomputerChoice();
   getResult();
 }));
 
 function generateComputerChoice() {
-  const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
-  console.log(randomNumber);
-
-  if (randomNumber === 1) {
-    computerChoice = 'rock';
+  const randomNumber = (Math.random() * options.length);
+  console.log(randomNumber)
+  if (computerChoice === 1) {
+    computerChoice = "rock";
+  } else if(computerChoice === 2 ) {
+    computerChoice = "paper";
+  } else {
+    computerChoice = "scissors";
   }
-
-  if (randomNumber === 2) {
-    computerChoice = 'paper';
-  }
-
-  if (randomNumber === 3) {
-    computerChoice = 'scissors';
-  }
-  computerChoiceDisplay.innerHTML = computerChoice;
+computerChoiceDisplay.innerHTML = computerChoice
 
 }
 
