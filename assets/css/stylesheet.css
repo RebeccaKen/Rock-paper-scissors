@@ -162,13 +162,17 @@ margin-top: 5%;
 }
             
 
-.score1 > #you {
+.score1 > #player-choice {
     font-size: 20px;
 }
             
-.score2 > #computer {
+.score2 > #computer-choice {
     font-size :20px;
     
+}
+
+.score0 > #result {
+    font-size :20px;
 }
 
 /* rules-area */
