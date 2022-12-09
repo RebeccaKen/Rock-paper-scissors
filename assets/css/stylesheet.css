@@ -116,7 +116,7 @@ button > i {
     width: 100%;
     }
     
-/*scoreboard-area*/
+/* scoreboard */
  
 .scoreboard {
 display: flex;
@@ -124,6 +124,8 @@ align-content: center;
 justify-content: center;
 margin-top: 5%;
 }
+
+<!--scoreboard-->
 
 .scoreboard > h1 {
     display: flex;
@@ -171,7 +173,7 @@ margin-top: 5%;
     
 }
 
-.score0 > #result {
+.resultBoard > #result {
     font-size :20px;
 }
 
