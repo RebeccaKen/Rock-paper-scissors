@@ -1,4 +1,9 @@
 // The following javascript was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów'
+var name = window.prompt("Hi! What is your name?");
+document.write("Welcome" + name + ", Ready to play?");
+
+
+
 
 const computerChoiceDisplay = document.getElementById('computer');
 const userChoiceDisplay = document.getElementById('you');
