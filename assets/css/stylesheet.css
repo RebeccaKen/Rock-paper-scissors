@@ -115,19 +115,53 @@ button > i {
     height: 100%;
     width: 100%;
     }
+
+.points {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.pointscounter_name,
+.playerPoints,
+.computerPoints {
+    padding: 10px;
+    text-align: center;
+}
+
+.pointscounter_name {
+    font-weight: 500;
+    border-bottom: 1px solid;
+
+}
+
+.pointscounter_name_two {
+    color: green
+}
+
+.pointscounter_name_one {
+    color: red
+}
     
-/* scoreboard */
+.playerPoints {
+    font-size: 2em;
+}
+
+.computerPoints {
+    font-size: 2em;
+}
+
+/* Result board */
  
-.scoreboard {
+.results {
 display: flex;
 align-content: center;
 justify-content: center;
 margin-top: 5%;
 }
 
-<!--scoreboard-->
-
-.scoreboard > h1 {
+.resultBoard > h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +169,7 @@ margin-top: 5%;
     font-size: 20px;
 }
     
-.score1 {
+.result1 {
     width: 100px;
     height: 60px;
     background-color: #E6ECF0;
@@ -149,7 +183,7 @@ margin-top: 5%;
     font-weight:500;
 }
 
-.score2 {
+.result2 {
     width: 100px;
     height: 60px;
     background-color: #E6ECF0;
@@ -164,11 +198,11 @@ margin-top: 5%;
 }
             
 
-.score1 > #player-choice {
+.result1 > #player-choice {
     font-size: 20px;
 }
             
-.score2 > #computer-choice {
+.result2 > #computer-choice {
     font-size :20px;
     
 }

@@ -3,12 +3,12 @@ let input = document.getElementById("input");
 let button = document.getElementById("button");
 let greet = document.getElementById("greet");
 
-// function to greet user (homepage)
 button.addEventListener("click", greetingUser);
 
+// function to greet user (homepage)
 function greetingUser() {
   greet.textContent = `Nice to meet you, ${input.value}!`
-}
+} 
 
 const computerChoiceDisplay = document.getElementById('computer');
 const userChoiceDisplay = document.getElementById('you');
@@ -17,6 +17,7 @@ const possibleChoices = document.querySelectorAll('button');
 let userChoice;
 let computerChoice;
 let result;
+let points;
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id;
   console.log("userChoice: ", userChoice);
@@ -25,9 +26,21 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   getResult();
 }));
 
+function userScore() {
+  let points = 0;
+  if (userChoice === 'Winner') {
+    playerPoints += 1; 
+}
+  if (computerChoice === 'Winner') {
+    computerPoints += 1;
+  }
+  points.innerHTML = points;
+}
+
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
   console.log(randomNumber);
+
   if (randomNumber === 1) {
     computerChoice = 'rock';
   }
@@ -50,9 +63,7 @@ function getResult() {
   if (computerChoice === 'rock' && userChoice === 'paper') {
     result = 'Winner';
   }
-  
-
-if (computerChoice === 'rock' && userChoice === 'scissors') {
+  if (computerChoice === 'rock' && userChoice === 'scissors') {
     result = 'Loser';
   }
   if (computerChoice === 'paper' && userChoice === 'scissors') {
@@ -70,3 +81,4 @@ if (computerChoice === 'rock' && userChoice === 'scissors') {
 
   resultDisplay.innerHTML = result;
 }
+
