@@ -31,7 +31,6 @@ h1 {
     font-size: 4vh;
     font-family: 'Roboto Condensed', sans-serif;
     margin-top: 1%;
-    align-items: center;
     margin-left: 7%;
 }
 
@@ -205,7 +204,7 @@ padding: 2%
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: rgb(14, 13, 13);
     font-weight: 500;
 }
             
@@ -221,6 +220,7 @@ padding: 2%
 
 .resultBoard > #result {
     font-size :20px;
+    color: red;
 }
 
 /* rules-area */
