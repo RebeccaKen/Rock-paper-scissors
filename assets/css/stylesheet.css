@@ -170,7 +170,7 @@ width: 100%;
 display: flex;
 align-content: center;
 justify-content: center;
-margin-top: 5%;
+padding: 2%
 }
 
 .resultBoard > h1 {
@@ -227,8 +227,8 @@ margin-top: 5%;
 
 .rules {
     display: flex;
-    text-align: center;
-    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
     margin-right: 5%;
     margin-left: 5%;
 }
@@ -239,7 +239,6 @@ margin-top: 5%;
 @media (max-width: 414px) {
     .controls-area {
         width: 100%;
-
     }
 
     .btn--big {
@@ -260,6 +259,7 @@ margin-top: 5%;
     .btn--gray {
         margin-top: 0;
     }
+}
 
 
 @media (max-width: 320px) {
