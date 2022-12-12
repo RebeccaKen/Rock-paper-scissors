@@ -16,10 +16,13 @@ const computerChoiceDisplay = document.getElementById('computer');
 const userChoiceDisplay = document.getElementById('you');
 const resultDisplay = document.getElementById('result');
 const possibleChoices = document.querySelectorAll('button');
+const computerPointsDisplay = document.getElementById('computerPoints-id');
+const playerPointsDisplay = document.getElementById('playerPoints-id');
 let userChoice;
-let computerChoice;
 let result;
-let points;
+let computerChoice;
+let playerPoints = 0;
+let computerPoints = 0;
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id;
   console.log("userChoice: ", userChoice);
@@ -27,17 +30,6 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   generateComputerChoice();
   getResult();
 }));
-
-function userScore() {
-  let points = 0;
-  if (userChoice === 'Winner') {
-    playerPoints += 1; 
-}
-  if (computerChoice === 'Winner') {
-    computerPoints += 1;
-  }
-  points.innerHTML = points;
-}
 
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
@@ -64,23 +56,31 @@ function getResult() {
   }
   if (computerChoice === 'rock' && userChoice === 'paper') {
     result = 'Winner';
+    playerPoints += 1;
   }
   if (computerChoice === 'rock' && userChoice === 'scissors') {
     result = 'Loser';
+    computerPoints += 1;
   }
   if (computerChoice === 'paper' && userChoice === 'scissors') {
     result = 'Winner';
+    playerPoints += 1;
   }
   if (computerChoice === 'paper' && userChoice === 'rock') {
     result = 'Loser';
+    computerPoints += 1;
   }
   if (computerChoice === 'scissors' && userChoice === 'rock') {
     result = 'Winner';
+    playerPoints += 1;
   }
   if (computerChoice === 'scissors' && userChoice === 'paper') {
     result = 'Loser';
+    computerPoints += 1;
   }
 
   resultDisplay.innerHTML = result;
+  computerPointsDisplay.innerHTML = computerPoints;
+  playerPointsDisplay.innerHTML = playerPoints;
 }
 
