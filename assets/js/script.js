@@ -3,12 +3,14 @@ let input = document.getElementById("input");
 let button = document.getElementById("button");
 let greet = document.getElementById("greet");
 
-button.addEventListener("click", greetingUser);
+button.addEventListener ("click", greetingUser)
 
 // function to greet user (homepage)
-function greetingUser() {
+
+function greetingUser(event) {
+  event.preventDefault()
   greet.textContent = `Nice to meet you, ${input.value}!`
-} 
+}
 
 const computerChoiceDisplay = document.getElementById('computer');
 const userChoiceDisplay = document.getElementById('you');
