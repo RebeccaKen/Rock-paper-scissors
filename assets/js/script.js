@@ -1,6 +1,6 @@
 // The following javascript was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów'
 let input = document.getElementById("input");
-let button = document.getElementById("button");
+let button = document.getElementById("submit");
 let greet = document.getElementById("greet");
 
 button.addEventListener ("click", greetingUser)
