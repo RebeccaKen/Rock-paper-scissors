@@ -66,6 +66,12 @@
 
 <br>
 
+<b>Submit name</b> -<p>This feature allows the user to enter their name and be greeted with a welcome message.</p>
+
+<img src="assets/images/submit-feature.jpg" alt="An-image-of-submit-feature">
+
+<br>
+
 <b>Responsive Buttons</b> -<p>Each button has a icon that represents either rock, paper or scissors. The buttons are responsive and signify which of the buttons was selected and clicked by the user.</p>
 
 <br>
