@@ -3,7 +3,7 @@
 <p>A rock, paper, scissors game build using HTML, CSS and JavaSript. This site is intended to allow the user to select one of three buttons: rock, paper or scissors. This selection and subsequent click will signal the Javascript to generate it's own random choice. Those two choices are then compared. The scoreboard will then showcase the user's choice, the Javascript random choice and the result of the game. </p>
 <br>
 
-![Mock-up Generator](https://user-images.githubusercontent.com/109537725/197870392-a5f362e5-2ec7-45cc-9309-caecdd59547a.png)
+<img src="assets/images/responsive-screenshot.jpg" alt="An-image-of-website-across-screen-sizes">
 
 
 <h2>Live Site</h2>
