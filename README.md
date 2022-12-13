@@ -66,9 +66,15 @@
 
 <br>
 
-<b>Submit name</b> -<p>This feature allows the user to enter their name and be greeted with a welcome message.</p>
+<b>Submit Name</b> -<p>This feature allows the user to enter their name and be greeted with a welcome message.</p>
 
 <img src="assets/images/submit-feature.jpg" alt="An-image-of-submit-feature">
+
+<br>
+
+<b>Points Counter</b>-<p>The points counter documents how many points the player and computer have.</p>
+
+<img src="assets/images/points-counter.jpg" alt="An-image-of-points-counter-feature">
 
 <br>
 
