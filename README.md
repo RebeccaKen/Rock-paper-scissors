@@ -122,7 +122,19 @@
 
 <br>
 
-![Javascript-resolved](https://user-images.githubusercontent.com/109537725/198036648-f8302b17-747b-4f7c-bce9-e0dabb2a3c21.png)
+<p>Javascript errors:</p>
+
+<br>
+
+<img src="assets/images/javascript-bugs.jpg" alt="An-image-of-javascript-errors">
+
+<br>
+
+<p>Javascript errors resolved:</p>
+
+<br>
+
+<img src="assets/images/javascript-bugs-corrected.jpg" alt="An-image-of-javascript-errors-resolved">
 
 
 <h2>Deployment</h2>
