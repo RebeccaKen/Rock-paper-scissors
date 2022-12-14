@@ -52,6 +52,7 @@
 <br>
 <b>Lighthouse Report</b>
 <br>
+<br>
 <img src="assets/images/lighthouse.jpg" alt="An-image-of-lighthouse-report">
 
 

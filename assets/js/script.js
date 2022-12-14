@@ -5,7 +5,7 @@ let greet = document.getElementById("greet");
 
 button.addEventListener ("click", greetingUser)
 
-// function to greet user (homepage)
+// function to greet user by inputting name
 
 function greetingUser(event) {
   event.preventDefault()
@@ -31,6 +31,8 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   getResult();
 }));
 
+// function to generate a random choice and assign it a number
+
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
   console.log(randomNumber);
@@ -49,6 +51,8 @@ function generateComputerChoice() {
   computerChoiceDisplay.innerHTML = computerChoice;
 
 }
+
+// function to assign result and add result to result board
 
 function getResult() {
   if (computerChoice === userChoice) {

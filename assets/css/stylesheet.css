@@ -26,6 +26,8 @@ h1 {
     margin-top: 3%;
 }
 
+/* greeting area */ 
+
 .greeting {
     width: 300px;
     font-size: 4vh;
@@ -51,6 +53,8 @@ h1 {
     margin-right: auto;
     padding: 1%;
 }
+
+/* control area - button container */ 
 
 .controls-area {
     width: 85%;
@@ -121,6 +125,8 @@ button > i {
 height: 100%;
 width: 100%;
 }
+
+/* points area */ 
 
 .points {
     display: grid;
