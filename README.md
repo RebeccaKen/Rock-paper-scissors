@@ -141,7 +141,7 @@
 <img src="assets/images/javascript-bugs-corrected.jpg" alt="An-image-of-javascript-errors-resolved">
 <br>
 <br>
-<h3>Code Bugs</h3>
+<h3>Code Bug</h3>
 <br>
 <img src="assets/images/submit-bug.jpg" alt="An-image-of-submit-bug">
 <br>
@@ -155,6 +155,10 @@
 <br>
 <img src="assets/images/submit-bug-solution.jpg" alt="An-image-of-submit-bug-solution">
 </p>
+<br>
+<h3>Unresolved bug</h3>
+<br>
+<img src="assets/images/unresolved-bug.jpg" alt="An-image-of-unresolved-bug">
 <br>
 <h2>Deployment</h2>
 <p>This website was deployed using Github pages.</p>
