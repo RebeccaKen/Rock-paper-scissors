@@ -5,14 +5,16 @@ let greet = document.getElementById("greet");
 
 button.addEventListener ("click", greetingUser)
 
-// function to greet user by inputting name and returning welcome
+// function to greet user by name input and return 
+// greeting message with name.
 
 function greetingUser(event) {
   event.preventDefault()
   greet.textContent = `Nice to meet you, ${input.value}!`
 }
 
-// code to get elements and add event listeners
+// code uses the 'getElementById' method to get elements, add event listeners
+// and state variables. 
 
 const computerChoiceDisplay = document.getElementById('computer');
 const userChoiceDisplay = document.getElementById('you');
@@ -33,8 +35,8 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   getResult();
 }));
 
-// function to generate a random choice and assign it a number between 1 and 3
-// this function also adds one point to the winner of each round
+// function to generate a random choice, round it off, and assign it 
+// either rock, paper or scissors as the computer choice. 
 
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
@@ -55,7 +57,8 @@ function generateComputerChoice() {
 
 }
 
-// function to assign result and add result to result board
+// function to assign result and add result to result board. 
+//function also adds one point to the winner of each round to be added to the points board.
 
 function getResult() {
   if (computerChoice === userChoice) {
