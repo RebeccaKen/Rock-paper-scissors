@@ -49,9 +49,10 @@
 
 <h2>Accessibility</h2>
 <ul>
+<br>
 <b>Lighthouse Report</b>
-
-![lighthouse-report jpg](https://user-images.githubusercontent.com/109537725/198401129-a6835b77-4843-41cc-9525-5af0570feea1.jpg)
+<br>
+<img src="assets/images/lighthouse.jpg" alt="An-image-of-lighthouse-report">
 
 
 <br>
@@ -102,27 +103,26 @@
 
 <b>HTML:</b>
 
-![html-bugs](https://user-images.githubusercontent.com/109537725/198034351-c38de4b2-9b78-4724-97f2-db050973ac45.png)
+![html-errors](https://user-images.githubusercontent.com/109537725/198034351-c38de4b2-9b78-4724-97f2-db050973ac45.png)
 <br>
 
-<b>Resolved HTML bugs:</b>
+<b>Resolved HTML errors:</b>
 <br>
-![html - resolved bugs](https://user-images.githubusercontent.com/109537725/198034837-dab627aa-0d51-4d3d-b1bc-2b5273944903.png)
+![html - resolved errors](https://user-images.githubusercontent.com/109537725/198034837-dab627aa-0d51-4d3d-b1bc-2b5273944903.png)
 <br>
 
 <b>CCS:</b>
 
-![Css bugs](https://user-images.githubusercontent.com/109537725/198035765-50a2fc35-f7ba-433d-a48f-b19ca0c98d6d.png)
-<b>Resolved CSS bugs</b>
+![Css errors](https://user-images.githubusercontent.com/109537725/198035765-50a2fc35-f7ba-433d-a48f-b19ca0c98d6d.png)
+<br>
+<b>Resolved CSS errors:</b>
 <br>
 
-![Css - resolved ](https://user-images.githubusercontent.com/109537725/198036206-d528b404-d12a-4064-990a-0bf3210c886b.png)
-
-<b>Javascipt:</b>
-
+![Css - errors resolved ](https://user-images.githubusercontent.com/109537725/198036206-d528b404-d12a-4064-990a-0bf3210c886b.png)
 <br>
 
-<p>Javascript errors:</p>
+
+<b>Javascript errors:</b>
 
 <br>
 
@@ -130,7 +130,7 @@
 
 <br>
 
-<p>Javascript errors resolved:</p>
+<b>Resolved javascript errors:</b>
 
 <br>
 
