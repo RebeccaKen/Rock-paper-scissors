@@ -102,6 +102,10 @@
 
 <h2>Testing & Bugs</h2>
 
+<br>
+<b>Validator errors</b>
+<br>
+
 <b>HTML:</b>
 
 ![html-errors](https://user-images.githubusercontent.com/109537725/198034351-c38de4b2-9b78-4724-97f2-db050973ac45.png)
@@ -136,8 +140,23 @@
 <br>
 
 <img src="assets/images/javascript-bugs-corrected.jpg" alt="An-image-of-javascript-errors-resolved">
-
-
+<br>
+<br>
+<h3>Code bugs</h3>
+<br>
+<img src="assets/images/submit-bug.jpg" alt="An-image-of-submit-bug">
+<br>
+<b>The issue</b>
+<p>This bug was very difficult to get to the bottom off. When the player entered their name, the ‘You’ area would print ‘Submit’. I could not understand why this was happening. After much research, and some time spent with a tutor named Ed, the reason for the bug came to light. The error was caused by my querySelectorAll. Originally, the code was:</p> 
+<br>
+<p>const possibleChoices = document.querySelectorAll('button');</p>
+<br>
+<b>The resolution</b>
+<p>Because the selector was set to ‘button’, it was picking up all the buttons and throwing off both the scoreboard display and the score. It was causing the submit button on the greeting name function to be counted as a button, therefore the function I wrote to generate a random number was working with four numbers, not the intended three. I resolved the issue by making the CSS selector more specific, so it only targeted the buttons within the control area:</p>
+<br>
+<p>const possibleChoices = document.querySelectorAll('.controls > button');</p>
+</p>
+<br>
 <h2>Deployment</h2>
 <p>This website was deployed using Github pages.</p>
 
