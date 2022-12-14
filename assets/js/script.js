@@ -34,6 +34,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 }));
 
 // function to generate a random choice and assign it a number between 1 and 3
+// this function also adds one point to the winner of each round
 
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;

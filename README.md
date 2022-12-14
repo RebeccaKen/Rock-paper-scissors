@@ -160,7 +160,7 @@
 <br>
 <img src="assets/images/unresolved-bug.jpg" alt="An-image-of-unresolved-bug">
 <br>
-<b>The issue:</p>
+<b>The Issue:</b>
 <br>
 <p>This bug occurred when the user clicked on the button and the ‘click’ didn’t register. I didn’t know why this happened. After plenty of testing, I soon noticed that the bug occurred when the button’s border was clicked. Research on stack Overflow indicated that this issue could be addressed with event propagation. I tried to implement it into my event listener for the .control > button CCS Selector, but I could not get it to work. I would like to return to the bug at a later date, when I have more time to research and learn the concept of event propagation and bubbling. </p>
 <br>
@@ -209,10 +209,17 @@ https://www.pgpedia.com/r/rock-paper-scissors
 
 <b>Javascript</b>
 
-<p>The javascript was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów':</p>
+<p>The greeting function was built with help from the codecademy's article 'Introduction to Functions in JS, Calling the greeting function'. </p>
+
+https://www.codecademy.com/forum_questions/525ee400f10c6083b9000e54
+
+<p>The game-area code was built with code from Ania Kubow's tutorial '3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)' on her YouTube channel 'Code with Ania Kubów':</p>
 
 https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1044s
 
+<p>The points board was built with code from dcode's tutorial 'Build a Scoreboard With HTML, CSS & JavaScript - Beginner's Project with CSS Grid and JS Classes' on his Youtube channel 'decode'</p>
+
+https://www.youtube.com/watch?v=7BExOvUgOwA
 
 <b>Button Icons</b>
 
@@ -220,5 +227,5 @@ https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1044s
 
 <h2>Acknowledgements</h2>
 <ul>
-<p>I would like to thank my tutor Harry Dhillion for the advice and everyone on the Code Institute slack channels for the encouragement.</p>
+<p>I would like to thank my tutor Harry Dhillion for the advice, everyone on the Code Institute slack channels for the encouragement and the tutors at tutor support for their patience. </p>
 
