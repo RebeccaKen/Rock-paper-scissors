@@ -160,6 +160,10 @@
 <br>
 <img src="assets/images/unresolved-bug.jpg" alt="An-image-of-unresolved-bug">
 <br>
+<b>The issue:</p>
+<br>
+<p>This bug occurred when the user clicked on the button and the ‘click’ didn’t register. I didn’t know why this happened. After plenty of testing, I soon noticed that the bug occurred when the button’s border was clicked. Research on stack Overflow indicated that this issue could be addressed with event propagation. I tried to implement it into my event listener for the .control > button CCS Selector, but I could not get it to work. I would like to return to the bug at a later date, when I have more time to research and learn the concept of event propagation and bubbling. </p>
+<br>
 <h2>Deployment</h2>
 <p>This website was deployed using Github pages.</p>
 
