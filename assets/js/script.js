@@ -5,12 +5,14 @@ let greet = document.getElementById("greet");
 
 button.addEventListener ("click", greetingUser)
 
-// function to greet user by inputting name
+// function to greet user by inputting name and returning welcome
 
 function greetingUser(event) {
   event.preventDefault()
   greet.textContent = `Nice to meet you, ${input.value}!`
 }
+
+// code to get elements and add event listeners
 
 const computerChoiceDisplay = document.getElementById('computer');
 const userChoiceDisplay = document.getElementById('you');
@@ -31,7 +33,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   getResult();
 }));
 
-// function to generate a random choice and assign it a number
+// function to generate a random choice and assign it a number between 1 and 3
 
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;

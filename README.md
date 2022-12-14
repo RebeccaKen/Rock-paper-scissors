@@ -43,14 +43,14 @@
  
  ![Colour Palette](https://user-images.githubusercontent.com/109537725/197855586-10e94f7f-fc9c-4155-b844-262804039e11.png)
  
-<h3>Typograpghy</h3>
+<h3>Typograpghy:</h3>
 
 <p>The fonts used in this project were imported into the css from google fonts. I choose Roboto as a main font because it is both professional and positive. I choose Sans-sarif as back-up font because it is understated and friendly.</p>
 
 <h2>Accessibility</h2>
 <ul>
 <br>
-<b>Lighthouse Report</b>
+<b>Lighthouse Report:</b>
 <br>
 <br>
 <img src="assets/images/lighthouse.jpg" alt="An-image-of-lighthouse-report">
@@ -101,17 +101,16 @@
 <br>
 
 <h2>Testing & Bugs</h2>
-
 <br>
-<b>Validator errors</b>
+<b>Validator Errors</b>
 <br>
-
+<br>
 <b>HTML:</b>
 
 ![html-errors](https://user-images.githubusercontent.com/109537725/198034351-c38de4b2-9b78-4724-97f2-db050973ac45.png)
 <br>
 
-<b>Resolved HTML errors:</b>
+<b>Resolved HTML Errors:</b>
 <br>
 ![html - resolved errors](https://user-images.githubusercontent.com/109537725/198034837-dab627aa-0d51-4d3d-b1bc-2b5273944903.png)
 <br>
@@ -120,14 +119,14 @@
 
 ![Css errors](https://user-images.githubusercontent.com/109537725/198035765-50a2fc35-f7ba-433d-a48f-b19ca0c98d6d.png)
 <br>
-<b>Resolved CSS errors:</b>
+<b>Resolved CSS Errors:</b>
 <br>
 
 ![Css - errors resolved ](https://user-images.githubusercontent.com/109537725/198036206-d528b404-d12a-4064-990a-0bf3210c886b.png)
 <br>
 
 
-<b>Javascript errors:</b>
+<b>Javascript Errors:</b>
 
 <br>
 
@@ -135,26 +134,26 @@
 
 <br>
 
-<b>Resolved javascript errors:</b>
+<b>Resolved javascript Errors:</b>
 
 <br>
 
 <img src="assets/images/javascript-bugs-corrected.jpg" alt="An-image-of-javascript-errors-resolved">
 <br>
 <br>
-<h3>Code bugs</h3>
+<h3>Code Bugs</h3>
 <br>
 <img src="assets/images/submit-bug.jpg" alt="An-image-of-submit-bug">
 <br>
-<b>The issue</b>
+<b>The Issue:</b>
 <p>This bug was very difficult to get to the bottom off. When the player entered their name, the ‘You’ area would print ‘Submit’. I could not understand why this was happening. After much research, and some time spent with a tutor named Ed, the reason for the bug came to light. The error was caused by my querySelectorAll. Originally, the code was:</p> 
 <br>
-<p>const possibleChoices = document.querySelectorAll('button');</p>
+<img src="assets/images/submit-bug-code.jpg" alt="An-image-of-submit-bug-code">
 <br>
-<b>The resolution</b>
+<b>The Resolution:</b>
 <p>Because the selector was set to ‘button’, it was picking up all the buttons and throwing off both the scoreboard display and the score. It was causing the submit button on the greeting name function to be counted as a button, therefore the function I wrote to generate a random number was working with four numbers, not the intended three. I resolved the issue by making the CSS selector more specific, so it only targeted the buttons within the control area:</p>
 <br>
-<p>const possibleChoices = document.querySelectorAll('.controls > button');</p>
+<img src="assets/images/submit-bug-solution.jpg" alt="An-image-of-submit-bug-solution">
 </p>
 <br>
 <h2>Deployment</h2>
@@ -194,7 +193,7 @@ The styling for the Rock Paper Scissors game was inspired by the clear, clean st
 https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
 
 
-<b>Text content</b>
+<b>Text Content</b>
 
 <p>The text for the rules section of Rock, Paper, Scissors were taken from the webpage 'Rock-Paper-Scissors' on the website 'Play and Playground Encyclopedia':</p>
 
